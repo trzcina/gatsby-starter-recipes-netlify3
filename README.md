@@ -52,7 +52,7 @@ Screenshot
     If you wish to import example recipes to your account, before running `gatsby develop` run:
     
     ```sh
-    node ./example/importExample.js
+    node ./.flotiq/importExample.js
     ```
     
     It will add 4 images and 2 recipes to your Flotiq account.
