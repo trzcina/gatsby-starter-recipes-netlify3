@@ -38,7 +38,7 @@ module.exports = {
                 baseUrl: process.env.GATSBY_FLOTIQ_BASE_URL,
                 authToken: process.env.GATSBY_FLOTIQ_API_KEY,
                 forceReload: false, //(optional)
-                includeTypes: ['recipe','_media'],
+                includeTypes: [`recipe`,`_media`],
             },
         },
         /**
