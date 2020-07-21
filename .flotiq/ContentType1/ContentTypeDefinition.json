@@ -91,17 +91,20 @@
     ],
     "propertiesConfig": {
       "name": {
+        "label": "Name",
         "unique": false,
         "helpText": "",
         "inputType": "text",
         "isTitlePart": true
       },
       "slug": {
+        "label": "Slug",
         "unique": true,
         "helpText": "",
         "inputType": "text"
       },
       "image": {
+        "label": "Image",
         "unique": false,
         "helpText": "",
         "inputType": "datasource",
@@ -110,6 +113,7 @@
         }
       },
       "steps": {
+        "label": "Steps",
         "items": {
           "order": [
             "image",
@@ -117,11 +121,13 @@
           ],
           "propertiesConfig": {
             "step": {
+              "label": "Step",
               "unique": false,
               "helpText": "",
               "inputType": "textarea"
             },
             "image": {
+              "label": "Image",
               "unique": false,
               "helpText": "",
               "inputType": "datasource",
@@ -136,21 +142,25 @@
         "inputType": "object"
       },
       "servings": {
+        "label": "Servings",
         "unique": false,
         "helpText": "",
         "inputType": "number"
       },
       "cookingTime": {
+        "label": "Cooking time",
         "unique": false,
         "helpText": "",
         "inputType": "text"
       },
       "description": {
+        "label": "Description",
         "unique": false,
         "helpText": "",
         "inputType": "richtext"
       },
       "ingredients": {
+        "label": "Ingredients",
         "items": {
           "order": [
             "amount",
@@ -159,6 +169,7 @@
           ],
           "propertiesConfig": {
             "unit": {
+              "label": "Unit",
               "unique": false,
               "options": [
                 "",
@@ -178,11 +189,13 @@
               "inputType": "select"
             },
             "amount": {
+              "label": "Amount",
               "unique": false,
               "helpText": "",
               "inputType": "number"
             },
             "product": {
+              "label": "Product",
               "unique": false,
               "helpText": "",
               "inputType": "text"
